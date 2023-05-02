@@ -10,6 +10,6 @@ The project uses MIMIC-III dataset to do the in-hospital mortality prediction ta
 In addition, the static demographic data can be downloaded from https://drive.google.com/file/d/1TXn4UdtQCzfd7TdDJAo_6_IcnO2LUa1a/view?usp=sharing, which is provided by the original author. Since the number of files in the demographic data is very large, you need to separate them into 5 folders demo1, demo2... Save it in the directory **data/hospital-mortality**. Run the file **demographic.ipynb** to process the demographic data.
 
 ## Model
-To implement the ConCare model and do the comparison experiments between ConCare-based models, run the file **ConCare.ipynb** directly. The trained model is in the directory **model/<MODEL_NAME>**. It takes 4 hours to load the training data and 1 hour to train each ConCare based model in the Google Colab Pro environment. To get the performance of the RETAIN model, run the file **Retain_Test.ipynb**.
+To implement the ConCare model and do the comparison experiments between ConCare-based models, run the file **ConCare.ipynb** directly. The trained model is in the directory **model/<MODEL_NAME>**. It takes 4 hours to load the training data and 1 hour to train each ConCare based model in the Google Colab Pro environment. To get the performance of the RETAIN model, run the file **Retain_Test.ipynb**. The project uses the public code of RETAIN where can be found at https://github.com/mp2893/retain.
 
 If you have any questions or comments about this project, please feel free to contact me. Thank you!
